@@ -1,0 +1,56 @@
+
+    .card{
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 8px;
+        position: relative;
+   
+    }
+    // bordure blanche
+.card::after{
+    content: "";
+    position: absolute;
+    inset:0 ;
+    border: 3px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4ms ease-in-out;
+}
+// au hover bordure blanche apparait
+.card:hover::after{
+    opacity: 1;
+    inset: 20px;
+}
+// le fond gris au hover
+.card:hover img {
+    filter: grayscale(1)
+    brightness(0.4);
+}
+.card .content h2 {
+    opacity: 0;
+    scale: 1;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    color: transparent;
+}
+.card:hover .content h2 {
+    scale: 1;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    color: white;
+}
+.card .image-box img {
+    width: 500px;
+    height: 400px;
+
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    border-radius: 1.5rem;
+
+}

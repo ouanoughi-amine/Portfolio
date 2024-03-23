@@ -1,0 +1,63 @@
+#contact{
+    padding-top: 10rem;
+}
+.formContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 180px;
+    
+}
+#email{
+    max-width: 560px;
+    width: 100%;
+    height:46px;
+    border-radius: 6px;
+    padding:12px;	
+    border:1px solid gray;
+}
+#message{
+    max-width: 560px;
+    width: 100%;
+    height:135px;
+    border-radius: 6px;
+    resize:none;
+    padding:12px;
+    border:1px solid gray;
+}
+.label{
+    max-width: 560px;
+    width: 100%;
+    color: white;
+    padding: 10px 0 ;
+}
+.titreContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto 50px auto;
+    max-width: 400px;
+    width: 100%;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 12px 20px;
+    box-shadow: rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
+    background: linear-gradient(-45deg, rgba(43, 85, 122, 0.967) 0%, rgb(2, 126, 154) 25%,rgb(21, 71, 140) 51%, rgb(108, 108, 223) 100%);
+    }
+    .buttonForm{
+        margin-top: 30px;
+        max-width: 150px;
+        width: 100%;
+        cursor: pointer;
+        color: white;
+        border-radius: 1.5rem;
+        padding: 12px 20px;
+        background: linear-gradient(-45deg, rgba(43, 85, 122, 0.967) 0%, rgb(2, 126, 154) 25%, rgb(21, 71, 140) 51%, rgb(108, 108, 223) 100%);
+        border: 1px solid transparent;
+        font-size: larger;
+        font-weight: 500;
+    }
+    .buttonForm:hover{
+        box-shadow: rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
+
+    }

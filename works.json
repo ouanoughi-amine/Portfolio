@@ -1,0 +1,51 @@
+[
+    {
+        "id": "b85ab5c8",
+        "title": "Booki",
+        "cover": "https://zupimages.net/up/24/12/o4a4.png",
+        "description": "Intégration d'une maquette pour une agence de reservation de vacances, en HTML/CSS...",
+        "contexte": "L’entreprise souhaitait développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J’ai été chargé d’intégrer l'interface du site avec du code HTML et CSS. Tous les liens de la maquette seront inactifs à cette étape.",
+        "problématique": "Il s'agissait d'un des premiers projets que je développais en responsive design donc je ne savais pas trop comment m'y prendre. Je me suis renseigné sur internet et me suis formé sur flexbox avec notamment Flexbox Froggy qui m'a permis de découvrir la propriété order qui m'a servit dans ce projet.",
+        "details": "J'ai été amené à suivre une note de synthèse qui regroupe les spécifications et contraintes techniques à respecter. Le site devait être entièrement responsive et c'était mon premier projet. J'ai versionné mon projet sur Git tout au long de son développement pour que la CTO ait accès à mon travail.",
+        "tags": ["HTML", "CSS", "Figma", "Github"],
+        "github": "https://github.com/ouanoughi-amine/Booki.git",
+        "site": "https://ouanoughi-amine.github.io/Booki/"
+    },
+    {
+        "id": "d2123946",
+        "title": "Sophie Bluel",
+        "cover": "https://zupimages.net/up/24/12/z8sp.png",
+        "description": "Conception d'un site portfolio d'une architecte d'intérieur en Javascript...",
+        "contexte": "ArchiWebos est une agence qui s'occupe de la conception du site portfolio d'une architecte d'intérieur. L'HTML de ce portoflio est déjà effectué mais il manque la partie Javascript pour rendre le site dynamique, c'est là que j'interviens.",
+        "problématique": "Un de mes premiers projets en Javascript, c'est pour cela que j'ai eu du mal à le produire mais avec de la perséverance j'ai réussi à surmonter les problèmes rencontrés comme par exemple le fait de devoir vérifier que l'utilisateur avait bien un token et qu'il s'agissait de l'admin pour lui permettre de modifier la galerie.",
+        "details": "J'ai été amené à récupérer les données provenant d'une API pour les afficher sur le site web ainsi que la possibilité de les filtrer. Il y a aussi l'ajout de la possibilité d'ajouter, modifier et supprimer un projet si l'utilisateur est connecté en tant qu'admin.",
+        "tags": ["Javascript", "NodeJS", "HTML", "CSS"],
+        "github": "https://github.com/ouanoughi-amine/Sophie-Bluel.git"
+    },
+    {
+        "id": "c51a30c5",
+        "title": "Kasa",
+        "cover": "https://zupimages.net/up/24/12/rgar.png",
+        "description": "Création d'une application web de location immobilière avec React...",
+        "contexte": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. La CTO a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance.",
+        "problématique": "Un des problèmes rencontré lors de ce projet était la mise en place de bonnes pratiques. Je n'en connaissais aucune et au final, j'ai fais la découverte d'énormément de bonnes pratiques en React comme par exemple, chercher à créer des composants réutilisables, l'utilisation de key ou encore la gestion des états.",
+        "details": "J'ai été amené à démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives), tout en prenant en compte les contraintes techniques de l'entreprise.",
+        "tags": ["React", "Javascript", "SASS","NodeJS"],
+        "github": "https://github.com/ouanoughi-amine/kasa.git"
+    }, 
+    {
+        "id": "a51cb768",
+        "title": "Mon Vieux Grimoire",
+        "cover": "https://zupimages.net/up/24/12/vbgz.png",
+        "description": "Développement du back-end d'un site de notation de livres avec NodeJS...",
+        "contexte": "Le Vieux Grimoire est une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres. Le site s’appellera “Mon Vieux Grimoire”, et permettra aux membres d’ajouter un nouveau livre et de mettre une note visible par le public.",
+        "problématique": "Il fallait sécuriser le site contre les injections mais étant nouveau dans le back-end, je n'avais aucune connaissance dans ce domaine. En cherchant sur internet j'ai trouvé l'existence d'un module s'appellant mongo-sanitize qui permet de nettoyer les données fournies avant de les insérer dans la base de données MongoDB.",
+        "details": "J'ai été amené à créer une API en suivant un document de spécifications techniques tout en prenant en compte la taille des images pour que le projet soit conforme aux bonnes pratiques de Green Code. J'ai aussi dû stocker des données de manière sécurisée, mettre en oeuvre des opérations CRUD de manière sécurisée et implémenter un modèle de logique de données conformément à la réglementation.",
+        "tags": [
+            "NodeJS",
+            "Expressjs",
+            "MongoDB"
+        ],
+        "github": "https://github.com/ouanoughi-amine/projet-7-grimoire.git"
+    }
+]

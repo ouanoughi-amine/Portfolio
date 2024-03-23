@@ -1,0 +1,50 @@
+.competences{
+    // height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#competences{
+    padding-top: 10rem;
+    margin-bottom: 200px;
+}
+.competences__card{
+    width: 240px;
+    height: 300px;
+    background-color: white;
+    border-radius: 1.5rem;
+    margin-top: 150px;
+}
+.titrecompetences{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto 0 auto;
+    max-width: 400px;
+    width: 100%;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 12px 20px;
+    box-shadow: rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
+    background: linear-gradient(-45deg, rgba(43, 85, 122, 0.967) 0%, rgb(2, 126, 154) 25%,rgb(21, 71, 140) 51%, rgb(108, 108, 223) 100%);
+    }
+.image{
+    width: 70px;
+    margin: 10px 20px;
+    transition: box-shadow 0.3s ease;
+
+}
+.image:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajoute une ombre portée au survol */
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 3px solid whitesmoke;
+    padding: 10px 20px;
+    background: linear-gradient(-45deg, rgba(12, 69, 118, 0.967) 0%, rgb(2, 126, 154) 25%,rgb(18, 63, 126) 51%, rgb(3, 3, 120) 100%);
+    border-radius: 1.5rem;
+
+}
