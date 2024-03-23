@@ -1,5 +1,4 @@
 
-import PropTypes from 'prop-types'; 
 import { Link } from 'react-router-dom';
 import './Cards.css';
 
@@ -18,11 +17,6 @@ const Cards = (props) => {
     );
 };
 
-// Définissez les types de props avec PropTypes
-Cards.propTypes = {
-    id: PropTypes.string.isRequired, 
-    cover: PropTypes.string.isRequired,
-    title: PropTypes.string.isRequired
-};
+
 
 export default Cards;

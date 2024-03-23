@@ -1,7 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import "./workComponent.css";
 import datas from "../../works.json";
-// import Work from "../../works.json";
 
 const WorkComponent = () => {
 
