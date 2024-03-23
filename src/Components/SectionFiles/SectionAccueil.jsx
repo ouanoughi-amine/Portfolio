@@ -7,7 +7,7 @@ const SectionAccueil = () => {
         <div className="section__accueil" id="accueil">
            
             <h1 className="section__accueil--title">{text1}<br/>{text2}</h1>
-            <img src="./src/assets/phot.jpg" alt="moi" className="section__accueil--image"/>
+            <img src="../assets/phot.jpg" alt="moi" className="section__accueil--image"/>
         </div>
     );
 };
