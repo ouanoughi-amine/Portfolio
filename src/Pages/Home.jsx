@@ -1,6 +1,6 @@
 import Header from "../Components/Header";
 import Section from "../Components/Section";
-import "./Home.scss"
+import "./Home.css"
 
 const Home = () => {
     return (

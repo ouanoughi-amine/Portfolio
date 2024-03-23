@@ -1,12 +1,10 @@
-
     .card{
         cursor: pointer;
         overflow: hidden;
         border-radius: 8px;
         position: relative;
-   
     }
-    // bordure blanche
+     /* bordure blanche */
 .card::after{
     content: "";
     position: absolute;
@@ -16,12 +14,12 @@
     opacity: 0;
     transition: 0.4ms ease-in-out;
 }
-// au hover bordure blanche apparait
+ /* au hover bordure blanche apparait */
 .card:hover::after{
     opacity: 1;
     inset: 20px;
 }
-// le fond gris au hover
+ /* le fond gris au hover */
 .card:hover img {
     filter: grayscale(1)
     brightness(0.4);
@@ -48,7 +46,6 @@
 .card .image-box img {
     width: 500px;
     height: 400px;
-
     object-fit: cover;
     transition: 0.5s ease-in-out;
     border-radius: 1.5rem;

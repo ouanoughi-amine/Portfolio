@@ -4,18 +4,17 @@
     align-items: center;
     gap: 30px;
     padding-top: 8rem;
- 
-    &--title{
+}
+   .section__accueil--title{
         color: white;
     }
-    &--image{
+    .section__accueil--image{
         border-radius: 50%;
         width: 300px;
         filter: grayscale(50%);
         
     }
-    &--image:hover{
+    .section__accueil--image:hover{
         filter: grayscale(20%);
     }
        
-}

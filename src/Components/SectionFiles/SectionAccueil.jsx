@@ -1,4 +1,4 @@
-import "./SectionAccueil.scss";
+import "./SectionAccueil.css";
 
 const SectionAccueil = () => {
     const text1 ="Bonjour, je m'appelle Amine OUANOUGHI"

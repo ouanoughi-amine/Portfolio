@@ -1,6 +1,5 @@
-import "./SectionProjects.scss";
+import "./SectionProjects.css";
 import Cards from "./Cards";
-// import datas from "../../../works.json";
 
 import { useEffect, useState } from "react";
 

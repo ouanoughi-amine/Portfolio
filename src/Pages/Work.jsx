@@ -1,5 +1,5 @@
 import WorkComponent from "../Components/workComponent";
-import "./Work.scss";
+import "./Work.css";
 import { useEffect } from "react";
 
 const Work = () => {

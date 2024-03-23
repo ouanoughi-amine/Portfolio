@@ -1,11 +1,11 @@
 
 import PropTypes from 'prop-types'; 
 import { Link } from 'react-router-dom';
-import './Cards.scss';
+import './Cards.css';
 
 const Cards = (props) => {
     return (
-        <Link className="link" to={`/work/${props.id}`}>
+        <Link className="link" to={`/Portfolio/work/${props.id}`}>
             <div className="card">
                 <div className="image-box">
                     <img src={props.cover} alt={props.title} />

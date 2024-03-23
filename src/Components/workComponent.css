@@ -1,16 +1,14 @@
 .workPage{
     display: flex;
     flex-direction: column;
-    // align-items: center;
+     /* align-items: center; */
     justify-content: center;
     gap: 40px;
     padding: 100px;
     color: white;
     position: relative;
 }
-// .titleImage{
-//     color: white;
-// }
+
 .workImage{
     max-width: 900px;
     max-height: 450px;

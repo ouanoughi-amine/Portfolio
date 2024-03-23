@@ -1,5 +1,5 @@
 import { useParams, Link } from "react-router-dom";
-import "./workComponent.scss";
+import "./workComponent.css";
 import datas from "../../works.json";
 // import Work from "../../works.json";
 
@@ -14,7 +14,7 @@ const WorkComponent = () => {
         return (
             
         <div className="workPage">
-                  <Link   to={"/"}>
+                  <Link   to={"/Portfolio/"}>
                 <button className="buttonRetoure"> ← Mon portfolio</button>
             </Link>
 
