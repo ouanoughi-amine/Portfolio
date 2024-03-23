@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import Work from './Pages/Work';
-import Works from '../works.json';
+import Works from "../public/works.json";
 import Footer from './Components/Footer';
 
 function App() {

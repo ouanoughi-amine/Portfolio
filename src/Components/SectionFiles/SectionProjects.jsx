@@ -8,7 +8,7 @@ const SectionProjects = () => {
  
     useEffect(() => {
         const fetchData = async () => {
-            const response = await fetch("works.json");
+            const response = await fetch("./works.json");
             const data = await response.json();
             setDatas(data);
         };
