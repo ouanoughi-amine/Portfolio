@@ -1,7 +1,11 @@
 .competences{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-inline: 20px;
 }
+
 #competences{
     padding-top: 10rem;
     margin-bottom: 200px;
@@ -11,15 +15,14 @@
     height: 300px;
     background-color: white;
     border-radius: 1.5rem;
-    margin-top: 150px;
 }
 .titrecompetences{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:0 auto 0 auto;
+    margin:0 auto 100px auto;
     max-width: 400px;
-    width: 100%;
+    width: 81%;
     color: white;
     border-radius: 1.5rem;
     padding: 12px 20px;
@@ -29,11 +32,18 @@
 .image{
     width: 70px;
     margin: 10px 20px;
-    transition: box-shadow 0.3s ease;
 }
 .image:hover{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajoute une ombre portée au survol */
+    animation: rotate 1s;
 }
+@keyframes rotate {
+    from {
+      transform: rotateZ(0deg);
+    }
+    to {
+      transform: rotateZ(360deg);
+    }
+  }
 .title{
     display: flex;
     justify-content: center;
@@ -43,4 +53,13 @@
     padding: 10px 20px;
     background: linear-gradient(-45deg, rgba(12, 69, 118, 0.967) 0%, rgb(2, 126, 154) 25%,rgb(18, 63, 126) 51%, rgb(3, 3, 120) 100%);
     border-radius: 1.5rem;
+}
+@media  (max-width: 1024px) {
+    .competences__card{
+        max-width: 40rem;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    } 
+  
 }

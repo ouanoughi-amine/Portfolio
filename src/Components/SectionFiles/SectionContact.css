@@ -6,6 +6,7 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 180px;
+    margin-inline: 20px;
     
 }
 #email{
@@ -37,7 +38,7 @@
     align-items: center;
     margin:0 auto 50px auto;
     max-width: 400px;
-    width: 100%;
+    width: 81%;
     color: white;
     border-radius: 1.5rem;
     padding: 12px 20px;
@@ -53,7 +54,7 @@
     .buttonForm{
         margin-top: 30px;
         max-width: 150px;
-        width: 100%;
+        width: 50%;
         cursor: pointer;
         color: white;
         border-radius: 1.5rem;
@@ -66,4 +67,12 @@
     .buttonForm:hover{
         box-shadow: rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
 
+    }
+    @media  (max-width: 768px) {
+        #contact {
+           padding: 0;
+        } 
+        .formContact{
+            padding-bottom: 96px;
+        }
     }

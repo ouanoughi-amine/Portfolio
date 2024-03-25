@@ -6,12 +6,12 @@ import SectionContact from "./SectionFiles/SectionContact";
 
 const Section = () => {
     return (
-        <div>
+        <main>
             <SectionAccueil/>
             <SectionProjects/>
             <SectionCompetences/>
             <SectionContact/>
-        </div>
+        </main>
     );
 };
 

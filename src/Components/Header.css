@@ -1,5 +1,4 @@
     .nav{
-        position: fixed;
         width: 100%;
         z-index: 9;
         display: flex;
@@ -8,14 +7,14 @@
         position: fixed;
         margin-top: 30px;
     }
+
     .nav__list{
         display: flex;
         justify-content: center;
         gap: 50px;
-        padding: 15px 20px;
+        padding: 20px 20px;
         border-radius: 999px;
         background:radial-gradient(#f3f6ff,  #e7e7e7 150%) ;
-        border: 1px solid f3f6ff;
         box-shadow: rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
     }
 
@@ -23,15 +22,59 @@
             cursor: pointer;
             color: black;
             padding: 10px 20px;
-            border-radius: 999px;
+            
         }
         .nav__list--li:hover{
             color: white;
+            border-radius: 999px;
             padding: 10px 20px;
             background: linear-gradient(-45deg, rgba(12, 69, 118, 0.967) 0%, rgb(2, 126, 154) 25%,rgb(18, 63, 126) 51%, rgb(3, 3, 120) 100%);
         }
-    
-   
+     
+         @media  (max-width: 768px) {
+            .nav{
+             width: 100%;
+             margin: 0;
+             padding: 0;
+             
+            }
+            .nav__list{
+                width: 100%;
+               border-radius:0 ;
+               color: black;
+               padding: 10px 0;
+               gap: 0;
+               font-weight: 300;
+           }
+           .nav__list--li:hover{
+            color: white;
+            border-radius: 999px;
+            border-radius: 0;
+            padding: 10px 13px;
+        }
+           
+           } 
+           @media  (max-width: 382px) {
+            .nav__list{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr; 
+            padding: 0;
+            
+           }
+           .nav__list--li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        .nav__list--li:hover{
+            
+            padding: 10px;
+        }
+           }
+
+          
 
 
 

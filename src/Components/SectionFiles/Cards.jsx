@@ -7,7 +7,7 @@ const Cards = (props) => {
         <Link className="link" to={`/Portfolio/work/${props.id}`}>
             <div className="card">
                 <div className="image-box">
-                    <img src={props.cover} alt={props.title} />
+                    <img src={props.cover} alt={props.title} className='image-projet'/>
                 </div>
                 <div className="content">
                     <h2 className="po">{props.title}</h2> 

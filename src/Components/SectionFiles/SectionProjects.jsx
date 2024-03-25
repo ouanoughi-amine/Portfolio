@@ -16,10 +16,7 @@ const SectionProjects = () => {
     }, []);
 
     return (
-        <section
-      
-        id="projets"
-    >
+        <section id="projets">
         <h2 className="titreProjet">Mes projets</h2>
         <div className="gallery">
             {datas.map((data) => (

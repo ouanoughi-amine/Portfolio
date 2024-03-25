@@ -1,53 +1,66 @@
-    .card{
-        cursor: pointer;
-        overflow: hidden;
-        border-radius: 8px;
-        position: relative;
-    }
-     /* bordure blanche */
-.card::after{
+.card {
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    max-width: 29.2rem;
+    width: 100%; 
+    max-height: 25rem;
+    height: 100%;
+    
+}
+/* bordure blanche */
+.card::after {
     content: "";
     position: absolute;
-    inset:0 ;
+    inset: 0;
     border: 3px solid white;
     border-radius: inherit;
     opacity: 0;
     transition: 0.4ms ease-in-out;
 }
- /* au hover bordure blanche apparait */
-.card:hover::after{
+/* au hover bordure blanche apparait */
+.card:hover::after {
     opacity: 1;
     inset: 20px;
 }
- /* le fond gris au hover */
+/* le fond gris au hover */
 .card:hover img {
-    filter: grayscale(1)
-    brightness(0.4);
+    filter: grayscale(1) brightness(0.4);
+}
+.card .content {
+    position: absolute;
+    bottom: 50%; 
+    text-align: center;
+    width: 100%;
 }
 .card .content h2 {
     opacity: 0;
     scale: 1;
     opacity: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,50%);
     color: transparent;
+    transition: opacity 0.3s ease;
 }
 .card:hover .content h2 {
-    scale: 1;
     opacity: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,50%);
     color: white;
+    
 }
-.card .image-box img {
-    width: 500px;
-    height: 400px;
-    object-fit: cover;
+.card .image-box  {
+    width: 100%;
+    height: 100%;
     transition: 0.5s ease-in-out;
     border-radius: 1.5rem;
+}
+.image-projet{
+    width: 100%;
+    height: 100%;
+}
+@media  (max-width: 1024px) {
+    .card {
+        max-width: 40rem;
+        width: 100%;
+        height: auto;
 
+    } 
 }

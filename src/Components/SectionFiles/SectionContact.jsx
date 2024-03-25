@@ -25,9 +25,10 @@ const SectionContact = () => {
             setSubmitMessage('Votre message a été envoyé avec succès ! Nous vous contacterons bientôt.');
             setEmail('');
             setMessage('');
+             // Effacer le message après 6 secondes (6000 millisecondes)
             setTimeout(() => {
-                setSubmitMessage('');
-            }, 6000); // Efface le message après 5 secondes (5000 millisecondes)
+              setSubmitMessage('');
+            }, 6000);
         } else {
             setSubmitMessage('Une erreur s\'est produite. Veuillez réessayer plus tard.');
         }

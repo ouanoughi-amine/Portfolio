@@ -4,12 +4,12 @@ import "./Home.css"
 
 const Home = () => {
     return (
-        <main className="homePage">
+        <div className="homePage">
             <Header/>
             <Section/>
             
 
-        </main>
+        </div>
     );
 };
 
