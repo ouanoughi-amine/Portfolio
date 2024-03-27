@@ -23,6 +23,28 @@
         "github": "https://github.com/ouanoughi-amine/Sophie-Bluel.git"
     },
     {
+        "id": "b47348a7",
+        "title": "Webgencia",
+        "cover": "https://zupimages.net/up/24/13/6q0r.png",
+        "description": "Veille informationnelle, organisation et présentation de la solution technique pour un site de menus au client...",
+        "contexte": "Qwenta souhaitait faire développer un “Menu Maker”. Il s’agit d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics.",
+        "problématique": "La prise en main de Notion était très compliquée étant donné qu'il s'agit d'un outil très complet. J'ai dû regarder énormément de tutoriel et fouiller un peu partout sur le site pour mener à bien ce projet très complet et enrichissant.",
+        "details": "J'ai été amené à mener, préparer et planifier le projet de développement du site. Pour se faire, j'ai commencé par faire une veille technologique pour proposer des solutions aux problématiques existantes. J'ai par la suite déterminé les spécifications techniques du site et pour finir, organisé la gestion de projet du développement du site sous forme de Kanban sur Notion ainsi qu'en faisant un planning prévisionnel.Ensuite, j'ai présenté ce travail de veille et de planification au chef de projet.",
+        "tags": [ "PowerPoint", "Notion", "AGILE"],
+        "github": ""
+    },
+    {
+        "id": "a523aba7",
+        "title": "Nina Carducci",
+        "cover": "https://zupimages.net/up/24/13/1ioy.png",
+        "description": "Optimisation SEO et débogage d'un site de photographe...",
+        "contexte": "J'analysais plusieurs sites internet à la recherche de nouveaux clients, parmis mes prospects, il y a le site de Nina Carducci, une photographe dont m'a parlé un ami. Cette dernière accepta ma demande en me demandant une optimisation de son site.",
+        "problématique": "Le problème avec ce projet était que l'outil Lighthouse donnait des scores qui n'étaient pas toujours similaire alors que je ne changeait rien. Pour le surmonter, j'ai dû corriger le plus possible les erreurs pour avoir dans tout les cas un score supérieur à 90.",
+        "details": "Le site était relativement long à charger étant donné que les images n'étaient pas redimensionné correctement et donc elle aurait la possibilité de gagner énormément de visiteurs si son site était optimisé pour les moteurs de recherche. Je lui ai fournis un document d'audit qui reprends les grandes lignes des problèmes de performances rencontré. En tout, j'ai fais une optimisation globale du site, une mise en place du référencement local en utilisant Schema.org, ajouté les balises meta pour les réseaux sociaux, amélioré l'accessibilité du site ainsi qu'un rapport d'optimisation présentant mes actions et leur impact.",
+        "tags": [ "SEO","Javascript", "Wave", "Rich Snippet"],
+        "github": "https://github.com/ouanoughi-amine/projet-5-seo.git"
+    },
+    {
         "id": "c51a30c5",
         "title": "Kasa",
         "cover": "https://zupimages.net/up/24/12/gjdl.png",
