@@ -19,7 +19,7 @@ const SectionAccueil = () => {
                 <h1 className={`section__accueil--title ${animationClass}`}>
                     {text1}<br />{text2}
                 </h1>
-                <img src="./photoProfil.png" alt="moi" className="section__accueil--image" />
+                <img src="./photoProfil.png" alt="photo Ouanoughi Amine" className="section__accueil--image" />
             </div>
             <div className='apropos'>
                 <h2 className='second-title'>{text3}</h2>
