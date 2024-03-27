@@ -13,8 +13,8 @@
 .competences__card{
     width: 240px;
     height: 300px;
-    background-color: white;
-    border-radius: 1.5rem;
+    background-color: var(--whiteColor);
+    border-radius: var(--borderRadiusMedium);
 }
 .titrecompetences{
     display: flex;
@@ -23,8 +23,8 @@
     margin:0 auto 100px auto;
     max-width: 400px;
     width: 81%;
-    color: white;
-    border-radius: 0.5rem;
+    color: var(--whiteColor);
+    border-radius: var(--borderRadiusSmall);
     padding: 12px 20px;
     box-shadow: rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
     background: linear-gradient(-45deg, rgba(43, 85, 122, 0.967) 0%, rgb(2, 126, 154) 25%,rgb(21, 71, 140) 51%, rgb(108, 108, 223) 100%);
@@ -48,11 +48,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--whiteColor);
     border: 3px solid whitesmoke;
     padding: 10px 20px;
     background: linear-gradient(-45deg, rgba(12, 69, 118, 0.967) 0%, rgb(2, 126, 154) 25%,rgb(18, 63, 126) 51%, rgb(3, 3, 120) 100%);
-    border-radius: 1.5rem;
+    border-radius:var(--borderRadiusMedium);
 }
 @media  (max-width: 1024px) {
     .competences__card{

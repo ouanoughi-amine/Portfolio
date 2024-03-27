@@ -29,7 +29,7 @@
 .label{
     max-width: 560px;
     width: 100%;
-    color: white;
+    color: var(--whiteColor);
     padding: 10px 0 ;
 }
 .titreContact{
@@ -39,14 +39,14 @@
     margin:0 auto 50px auto;
     max-width: 400px;
     width: 81%;
-    color: white;
-    border-radius: 0.5rem;
+    color: var(--whiteColor);
+    border-radius: var(--borderRadiusSmall);
     padding: 12px 20px;
     box-shadow: rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
     background: linear-gradient(-45deg, rgba(43, 85, 122, 0.967) 0%, rgb(2, 126, 154) 25%,rgb(21, 71, 140) 51%, rgb(108, 108, 223) 100%);
     }
     .submitMessage{
-        color: white;
+        color: var(--whiteColor);
         margin-top: 15px;
         font-weight: 500;
         
@@ -56,8 +56,8 @@
         max-width: 150px;
         width: 50%;
         cursor: pointer;
-        color: white;
-        border-radius: 1.5rem;
+        color: var(--whiteColor);
+        border-radius: var(--borderRadiusMedium);
         padding: 12px 20px;
         background: linear-gradient(-45deg, rgba(43, 85, 122, 0.967) 0%, rgb(2, 126, 154) 25%, rgb(21, 71, 140) 51%, rgb(108, 108, 223) 100%);
         border: 1px solid transparent;

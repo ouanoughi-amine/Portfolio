@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import './Cards.css';
 
@@ -17,7 +16,4 @@ const Cards = (props) => {
         </Link>
     );
 };
-
-
-
 export default Cards;

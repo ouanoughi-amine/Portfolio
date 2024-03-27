@@ -1,4 +1,3 @@
-
 import SectionAccueil from "./SectionFiles/SectionAccueil";
 import SectionProjects from "./SectionFiles/SectionProjects";
 import SectionCompetences from "./SectionFiles/SectionCompetences";

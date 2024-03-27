@@ -18,7 +18,7 @@
         transform: translateX(0);
   }
   .apropos{
-    color: white;
+    color:var(--whiteColor);
     margin-top:100px;
     text-align: center;
     width: 80%;

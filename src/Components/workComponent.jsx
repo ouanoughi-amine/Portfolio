@@ -7,11 +7,7 @@ const WorkComponent = () => {
     const { id } = useParams();
     const Work = datas.find((datas) => datas.id === id);
 
- 
-
- 
-        return (
-            
+        return (     
         <main className="workPage">
           <div className="block-work">
                   <Link   to={"/Portfolio/"}>
@@ -32,8 +28,6 @@ const WorkComponent = () => {
             <p>{Work.problématique}</p>
             </div>
         </main>
-        
-
           );
         }
 

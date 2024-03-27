@@ -1,4 +1,3 @@
-
 import './SectionCompetences.css'; 
 
 const SectionCompetences = () => {

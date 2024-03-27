@@ -1,6 +1,5 @@
 import "./SectionProjects.css";
 import Cards from "./Cards";
-
 import { useEffect, useState } from "react";
 
 const SectionProjects = () => {

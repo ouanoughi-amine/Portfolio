@@ -1,3 +1,12 @@
+:root{
+    --colorBackground:linear-gradient(-45deg, rgba(8, 75, 133, 0.967) 0%, rgb(3, 143, 174) 25%,rgb(65, 133, 221) 51%, rgb(12, 12, 66) 100%);
+    --borderRadiusLarge:999px;
+    --borderRadiusMedium:1.5rem;
+    --borderRadiusSmall:0.5rem;
+    --whiteColor:white;
+    --blackColor:black;
+}
+
 *{
 margin: 0;
 padding: 0;
@@ -12,12 +21,10 @@ main{
     max-width: 1440px;
     width: 100%;
     margin-inline: auto;
-    
-    
 }
 body{
     background-size: 300% 300%;
-    background-image: linear-gradient(-45deg, rgba(8, 75, 133, 0.967) 0%, rgb(3, 143, 174) 25%,rgb(65, 133, 221) 51%, rgb(12, 12, 66) 100%);;
+    background-image: var(--colorBackground);
     -webkit-animation: AnimateBG 20s ease infinite;
     animation: AnimateBG 20s ease infinite;
 }
