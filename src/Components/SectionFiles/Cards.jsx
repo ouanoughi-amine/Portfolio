@@ -10,9 +10,10 @@ const Cards = (props) => {
                     <img src={props.cover} alt={props.title} className='image-projet'/>
                 </div>
                 <div className="content">
-                    <h2 className="po">{props.title}</h2> 
+                    <h2>{props.title}</h2> 
                 </div> 
             </div>
+            
         </Link>
     );
 };

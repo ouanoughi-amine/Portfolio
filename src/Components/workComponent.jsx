@@ -12,19 +12,26 @@ const WorkComponent = () => {
  
         return (
             
-        <div className="workPage">
+        <main className="workPage">
+          <div className="block-work">
                   <Link   to={"/Portfolio/"}>
                 <button className="buttonRetoure"> ← Mon portfolio</button>
             </Link>
 
-          <h1 className="titleImage">{Work.title}</h1>
+          <h2 className="titleImage">{Work.title}</h2>
             <img src={Work.cover} alt={Work.title} className="workImage" />
-            <h2>Contexte</h2>
+            <ul className="tags">
+                {Work.tags.map((tags, index) => (
+                    <li key={index} className="tag">{tags}</li>
+                ))}
+            </ul>
+            
+            <h2 className="titleImage">Contexte</h2>
             <p>{Work.contexte}</p>
-            <h3>Problématique/Résolution</h3>
+            <h2 className="titleImage">Problématique/Résolution</h2>
             <p>{Work.problématique}</p>
-    
-        </div>
+            </div>
+        </main>
         
 
           );

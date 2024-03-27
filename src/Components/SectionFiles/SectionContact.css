@@ -40,7 +40,7 @@
     max-width: 400px;
     width: 81%;
     color: white;
-    border-radius: 1.5rem;
+    border-radius: 0.5rem;
     padding: 12px 20px;
     box-shadow: rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
     background: linear-gradient(-45deg, rgba(43, 85, 122, 0.967) 0%, rgb(2, 126, 154) 25%,rgb(21, 71, 140) 51%, rgb(108, 108, 223) 100%);
