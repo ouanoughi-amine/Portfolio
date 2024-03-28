@@ -7,7 +7,7 @@
         "contexte": "L’entreprise souhaitait développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J’ai été chargé d’intégrer l'interface du site avec du code HTML et CSS. Tous les liens de la maquette seront inactifs à cette étape",
         "problématique": "Il s'agissait d'un des premiers projets que je développais en responsive design donc je ne savais pas trop comment m'y prendre. Je me suis renseigné sur internet et je me suis formé sur flexbox avec notamment Flexbox Froggy qui m'a permis de découvrir la propriété order qui m'a servit dans ce projet. J'ai été amené à suivre une note de synthèse qui regroupe les spécifications et contraintes techniques à respecter. Le site devait être entièrement responsive et c'était mon premier projet. J'ai versionné mon projet sur Git tout au long de son développement pour que la CTO ait accès à mon travail.",
         "tags": ["HTML", "CSS", "Figma", "Github"],
-        "github": "https://github.com/ouanoughi-amine/Booki.git",
+        "github": "https://github.com/ouanoughi-amine/Booki.git"
     },
     {
         "id": "d2123946",
