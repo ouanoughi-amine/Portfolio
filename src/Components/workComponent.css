@@ -33,7 +33,19 @@
     margin-top: 5rem;
 }
 .buttonRetoure:hover{
-    box-shadow: rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
+    box-shadow:var(--shadowColor);
+}
+.buttonGithub{
+    cursor: pointer;
+    color:var(--whiteColor);
+    border-radius: var(--borderRadiusMedium);
+    padding: 12px 20px;
+    background: linear-gradient(-45deg, rgba(43, 85, 122, 0.967) 0%, rgb(2, 126, 154) 25%, rgb(21, 71, 140) 51%, rgb(108, 108, 223) 100%);
+    border: 1px solid transparent;
+    font-size: 22px;
+}
+.buttonGithub:hover{
+    box-shadow:var(--shadowColor);
 }
 .tags{
     display: flex;
@@ -54,6 +66,10 @@ text-align: center;
         padding: 10px 18px;
         font-size: 18px;
     } 
+    .buttonGithub{
+        padding: 10px 18px;
+        font-size: 18px;
+    }
     .tag{
         padding: 10px 18px;
         font-size: 18px;
@@ -65,6 +81,10 @@ text-align: center;
 @media  (max-width:500px) {
     
     .buttonRetoure{
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+    .buttonGithub{
         padding: 8px 16px;
         font-size: 16px;
     }

@@ -65,8 +65,7 @@
         font-weight: 500;
     }
     .buttonForm:hover{
-        box-shadow: rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
-
+        box-shadow:var(--shadowColor);
     }
     @media  (max-width: 768px) {
         #contact {

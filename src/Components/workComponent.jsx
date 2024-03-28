@@ -6,6 +6,7 @@ const WorkComponent = () => {
 
     const { id } = useParams();
     const Work = datas.find((datas) => datas.id === id);
+   
 
         return (     
         <main className="workPage">
@@ -26,6 +27,9 @@ const WorkComponent = () => {
             <p>{Work.contexte}</p>
             <h2 className="titleImage">Problématique/Résolution</h2>
             <p>{Work.problématique}</p>
+            <Link   to={Work.github}>
+            <button className="buttonGithub">Lien vers Git-hub</button>
+            </Link>
             </div>
         </main>
           );

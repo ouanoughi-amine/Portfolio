@@ -5,16 +5,17 @@
     --borderRadiusSmall:0.5rem;
     --whiteColor:white;
     --blackColor:black;
+    --shadowColor:rgba(120, 120, 121, 0.789) 0px 6px 11px, rgba(17, 17, 26, 0.1) 0px 6px 35px, rgba(17, 17, 26, 0.1) 0px 14px 50px;
 }
 
 *{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-text-decoration: none;
-list-style: none;
-font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-font-weight: 500;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 500;
 
 }
 main{
