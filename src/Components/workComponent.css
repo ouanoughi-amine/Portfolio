@@ -22,7 +22,7 @@
     object-fit: cover;
     object-position: top;
 }
-.buttonRetoure{
+.buttonRetour{
     cursor: pointer;
     color:var(--whiteColor);
     border-radius: var(--borderRadiusMedium);
@@ -32,7 +32,7 @@
     font-size: 22px;
     margin-top: 5rem;
 }
-.buttonRetoure:hover{
+.buttonRetour:hover{
     box-shadow:var(--shadowColor);
 }
 .buttonGithub{
@@ -62,7 +62,7 @@
 text-align: center;
 } 
 @media  (max-width: 768px) {
-    .buttonRetoure{
+    .buttonRetour{
         padding: 10px 18px;
         font-size: 18px;
     } 
@@ -80,7 +80,7 @@ text-align: center;
 }
 @media  (max-width:500px) {
     
-    .buttonRetoure{
+    .buttonRetour{
         padding: 8px 16px;
         font-size: 16px;
     }

@@ -12,7 +12,7 @@ const WorkComponent = () => {
         <main className="workPage">
           <div className="block-work">
                   <Link   to={"/Portfolio/"}>
-                <button className="buttonRetoure"> ← Mon portfolio</button>
+                <button className="buttonRetour"> ← Mon portfolio</button>
             </Link>
 
           <h2 className="titleImage">{Work.title}</h2>
