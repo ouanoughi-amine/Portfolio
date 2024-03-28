@@ -19,7 +19,7 @@
         "contexte": "ArchiWebos est une agence qui s'occupe de la conception du site portfolio d'une architecte d'intérieur. L'HTML de ce portoflio est déjà effectué mais il manque la partie Javascript pour rendre le site dynamique, c'est là que j'interviens.",
         "problématique": "Un de mes premiers projets en Javascript, c'est pour cela que j'ai eu du mal à le produire mais avec de la perséverance j'ai réussi à surmonter les problèmes rencontrés comme par exemple le fait de devoir vérifier que l'utilisateur avait bien un token et qu'il s'agissait de l'admin pour lui permettre de modifier la galerie.",
         "details": "J'ai été amené à récupérer les données provenant d'une API pour les afficher sur le site web ainsi que la possibilité de les filtrer. Il y a aussi l'ajout de la possibilité d'ajouter, modifier et supprimer un projet si l'utilisateur est connecté en tant qu'admin.",
-        "tags": ["Javascript", "NodeJS", "HTML", "CSS"],
+        "tags": ["Javascript", "NodeJS", "HTML", "CSS", "Swagger"],
         "github": "https://github.com/ouanoughi-amine/Sophie-Bluel.git"
     },
     {
@@ -66,7 +66,8 @@
         "tags": [
             "NodeJS",
             "Expressjs",
-            "MongoDB"
+            "MongoDB",
+            "Postman"
         ],
         "github": "https://github.com/ouanoughi-amine/projet-7-grimoire.git"
     }
