@@ -5,7 +5,7 @@
         "cover": "https://zupimages.net/up/24/12/m6za.png",
         "description": "Intégration d'une maquette pour une agence de reservation de vacances, en HTML/CSS...",
         "contexte": "L’entreprise souhaitait développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. J’ai été chargé d’intégrer l'interface du site avec du code HTML et CSS. Tous les liens de la maquette seront inactifs à cette étape.",
-        "problématique": "Il s'agissait d'un des premiers projets que je développais en responsive design donc je ne savais pas trop comment m'y prendre. Je me suis renseigné sur internet et me suis formé sur flexbox avec notamment Flexbox Froggy qui m'a permis de découvrir la propriété order qui m'a servit dans ce projet.",
+        "problématique": "Il s'agissait d'un des premiers projets que je développais en responsive design donc je ne savais pas trop comment m'y prendre. Je me suis renseigné sur internet et je me suis formé sur flexbox avec notamment Flexbox Froggy qui m'a permis de découvrir la propriété order qui m'a servit dans ce projet.",
         "details": "J'ai été amené à suivre une note de synthèse qui regroupe les spécifications et contraintes techniques à respecter. Le site devait être entièrement responsive et c'était mon premier projet. J'ai versionné mon projet sur Git tout au long de son développement pour que la CTO ait accès à mon travail.",
         "tags": ["HTML", "CSS", "Figma", "Github"],
         "github": "https://github.com/ouanoughi-amine/Booki.git",
@@ -25,7 +25,7 @@
     {
         "id": "b47348a7",
         "title": "Webgencia",
-        "cover": "https://zupimages.net/up/24/13/6q0r.png",
+        "cover": "https://zupimages.net/up/24/13/ac74.png",
         "description": "Veille informationnelle, organisation et présentation de la solution technique pour un site de menus au client...",
         "contexte": "Qwenta souhaitait faire développer un “Menu Maker”. Il s’agit d’un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics.",
         "problématique": "La prise en main de Notion était très compliquée étant donné qu'il s'agit d'un outil très complet. J'ai dû regarder énormément de tutoriel et fouiller un peu partout sur le site pour mener à bien ce projet très complet et enrichissant.",
@@ -34,9 +34,9 @@
         "github": ""
     },
     {
-        "id": "a523aba7",
+        "id": "a323aba7",
         "title": "Nina Carducci",
-        "cover": "https://zupimages.net/up/24/13/1ioy.png",
+        "cover": "https://zupimages.net/up/24/13/nt5q.png",
         "description": "Optimisation SEO et débogage d'un site de photographe...",
         "contexte": "J'analysais plusieurs sites internet à la recherche de nouveaux clients, parmis mes prospects, il y a le site de Nina Carducci, une photographe dont m'a parlé un ami. Cette dernière accepta ma demande en me demandant une optimisation de son site.",
         "problématique": "Le problème avec ce projet était que l'outil Lighthouse donnait des scores qui n'étaient pas toujours similaire alors que je ne changeait rien. Pour le surmonter, j'ai dû corriger le plus possible les erreurs pour avoir dans tout les cas un score supérieur à 90.",
@@ -47,7 +47,7 @@
     {
         "id": "c51a30c5",
         "title": "Kasa",
-        "cover": "https://zupimages.net/up/24/12/gjdl.png",
+        "cover": "https://zupimages.net/up/24/13/eq4b.png",
         "description": "Création d'une application web de location immobilière avec React...",
         "contexte": "Kasa est dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant. Avec plus de 500 annonces postées chaque jour, Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. La CTO a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance.",
         "problématique": "Un des problèmes rencontré lors de ce projet était la mise en place de bonnes pratiques. Je n'en connaissais aucune et au final, j'ai fais la découverte d'énormément de bonnes pratiques en React comme par exemple, chercher à créer des composants réutilisables, l'utilisation de key ou encore la gestion des états.",
@@ -58,7 +58,7 @@
     {
         "id": "a51cb768",
         "title": "Mon Vieux Grimoire",
-        "cover": "https://zupimages.net/up/24/12/uu6r.png",
+        "cover": "https://zupimages.net/up/24/13/hlfl.png",
         "description": "Développement du back-end d'un site de notation de livres avec NodeJS...",
         "contexte": "Le Vieux Grimoire est une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres. Le site s’appellera “Mon Vieux Grimoire”, et permettra aux membres d’ajouter un nouveau livre et de mettre une note visible par le public.",
         "problématique": "Il fallait sécuriser le site contre les injections mais étant nouveau dans le back-end, je n'avais aucune connaissance dans ce domaine. En cherchant sur internet j'ai trouvé l'existence d'un module s'appellant mongo-sanitize qui permet de nettoyer les données fournies avant de les insérer dans la base de données MongoDB.",
